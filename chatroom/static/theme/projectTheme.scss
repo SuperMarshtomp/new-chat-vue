@@ -1,0 +1,118 @@
+#theme-#{$theme} {
+    // vchat-main-header
+    .vchat-main-header { // 头部
+        background: $vchat-header-backgroudColor;
+        .vchat-header-container{
+            background-color:$vchat-header-backgroudColor;
+        }
+        .vchat-logo{
+            color: $vchat-logo-color;
+        }
+        .nickname{
+            color: $head-nickname;
+        }
+        .handleList li {
+            i {
+                color: $vchat-header-handleList-i-color;
+            }
+        }
+        .handleList li a{
+            color: $vchat-header-handleList-a-color;
+        }
+        .handleList li:hover{
+            background: $vchat-header-handleList-hover-bgcolor;
+        }
+        .handleList li:hover i, .handleList li:hover a{
+            color: $vchat-header-handleList-hover-color;
+        }
+        .logout{
+            color: $vchat-header-logout;
+        }
+        .logout:hover{
+            color: $vchat-header-logout-hover;
+        }
+        .online{
+            color: $vchat-header-online;
+        }
+    }
+
+    .chat-apheader{
+        background-color: $vchat-logo-bgcolor;
+        color: $vchat-logo-color;
+    }
+    .mes-box .messageInfo p.mes{
+        background: $chat-mes;
+        color: $chat-mes-font;
+    }
+
+    .chat-message {
+        .org {
+            color: $chat-other-mes;
+        }
+        .org span{
+            color: $chat-mes;
+        }
+    }
+
+    .other.mes-box .messageInfo p.mes{
+        background: $chat-other-mes;
+        color: $chat-mes-font;
+    }
+
+    .vchat-chatRoom{
+        background: $vchat-content-bgcolor;
+        .chat-header{
+            background: $vchat-logo-bgcolor;
+        }
+    }
+
+    // vchat-little-header.vue
+    .vchat-little-header{
+        background: $vchat-little-header-bgcolor;
+        .logout{
+            color: $vchat-header-logout;
+        }
+        .logout:hover{
+            color: $vchat-header-logout-hover;
+        }
+    }
+    // personalMain.vue
+    .chat-main {
+        .chat-content-nav{
+            background: $vchat-content-nav-bgcolor;
+            
+            box-shadow: $vchat-content-nav-box-shadow;
+            ul {
+                li {
+                    a {
+                        color: $vchat-content-nav-color;
+                    }
+                }
+                li.active {
+                    a {
+                        color: $vchat-content-nav-active-color;
+                    }
+                }
+            }
+        }
+        .chat-content{
+            //background-color: $vchat-content-bgcolor;
+            
+            .chat-content-left-footer{
+                ul{
+                    a {
+                        color: $vchat-content-nav-color;
+                    }
+                    li.active {
+                        a {
+                            color: $vchat-content-nav-active-color;
+                        }
+                    }
+                }
+            }
+        }
+        .chat-content-view{
+            background: $vchat-content-view-bgcolor;
+        }
+    }
+}

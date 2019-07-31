@@ -1,0 +1,30 @@
+// projectTheme
+/*********************************************************/
+/*主题名称*/
+$theme: vchat;
+
+/*personalMain.vue*/
+/*头部颜色*/
+$vchat-header-backgroudColor: #ececec;
+$vchat-logo-color: #f8f9f9;
+$vchat-logo-bgcolor:#c20c0c;
+$head-nickname:#160e0e;
+$vchat-header-handleList-i-color: #333333;
+$vchat-header-handleList-a-color: #d4d4d4;
+$vchat-header-handleList-hover-bgcolor: #e9faf9;
+$vchat-header-handleList-hover-color: #333333;
+$vchat-header-logout: #c20c0c;
+$vchat-header-logout-hover: #333333;
+$vchat-header-online: #333333;
+/*内容*/
+$vchat-content-bgcolor: #f8f9f9; 
+$vchat-content-nav-bgcolor: #fff;
+$vchat-content-nav-box-shadow: 2px 0 10px #d5d5d5;
+$vchat-content-nav-color: #df3b3b;
+$vchat-content-nav-active-color: #df3b3b;
+$vchat-content-view-bgcolor: #333333;
+$chat-mes:#bb3434;
+$chat-other-mes:#525252;
+$chat-mes-font:#f8f9f9;
+/* mySetting.vue */
+$vchat-little-header-bgcolor: #666666;
